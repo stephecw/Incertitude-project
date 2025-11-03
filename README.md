@@ -15,13 +15,6 @@ Using **Markov Chain Monte Carlo (MCMC)** and **Bayesian inference**, the projec
 
 ---
 
-## 📎 Report / Documentation
-
-📄 **Full Report (PDF):**  
-👉 [Download / Read the report](./projet_APM52068.pdf)
-
----
-
 ## ⚙️ Workflow
 
 1. **Model Definition**  
