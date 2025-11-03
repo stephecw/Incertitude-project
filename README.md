@@ -1,12 +1,47 @@
-# Incertitude-project
+# 🎯 Bayesian Inference for Inverse Problems — Incertitude Project
 
-This project tackles a Bayesian resolution of an inverse problem. The goal is to estimate hidden physical parameters of a nonlinear model using noisy observations.
+This project addresses a **Bayesian approach to solve an inverse problem**: estimating hidden physical parameters of a nonlinear model from noisy observations.
 
-Main steps include:\
-	•	Defining a physical model f(x) depending on parameters (e.g., viscosity, diffusion constants).\
-	•	Generating synthetic noisy observations to simulate measurement data.\
-	•	Building the likelihood function and its Gaussian/log-likelihood approximation.\
-	•	Implementing a Metropolis–Hastings MCMC algorithm to sample from the posterior distribution of the parameters.\
-	•	Analyzing convergence, acceptance ratios, posterior distributions, and confidence intervals.
+Using **Markov Chain Monte Carlo (MCMC)** and **Bayesian inference**, the project allows uncertainty quantification and robust parameter estimation in physics-inspired models.
 
-This workflow provides a complete Bayesian framework for parameter estimation, uncertainty quantification, and model validation in physics-inspired systems.
+---
+
+## ✅ Objectives
+
+- Estimate unknown physical parameters from noisy measurements  
+- Use **Bayesian inference** to obtain a distribution of parameters (not just point estimates)  
+- Quantify **uncertainty, credibility intervals and posterior distributions**  
+- Apply MCMC (Metropolis–Hastings) to sample from the posterior distribution  
+
+---
+
+## 📎 Report / Documentation
+
+📄 **Full Report (PDF):**  
+👉 [Download / Read the report](./projet_APM52068.pdf)
+
+---
+
+## ⚙️ Workflow
+
+1. **Model Definition**  
+   - Define a physical model \( f(x, \theta) \) with parameters \( \theta \) (e.g., viscosity, diffusion).
+
+2. **Synthetic Data Generation**  
+   - Simulate noisy observations to emulate real-world measurements.
+
+3. **Likelihood Formulation**  
+   - Define the likelihood function + Gaussian/log-likelihood approximation.
+
+4. **Bayesian Inference & MCMC**  
+   - Use **Metropolis–Hastings algorithm** to sample from the parameter posterior.
+
+5. **Posterior Analysis**  
+   - Analyze:
+     - Convergence of chains  
+     - Acceptance rates  
+     - Posterior distributions  
+     - Confidence / credible intervals  
+
+
+
